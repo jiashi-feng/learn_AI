@@ -1,0 +1,103 @@
+1.知乎上超过 10k 的python相关回答
+
+Yupeng：三天搞定Python（https://zhuanlan.zhihu.com/p/21332075）
+
+TheAnswer：编程零基础应当如何开始学习 Python？（https://www.zhihu.com/question/20039623/answer/64926634）
+
+Wayne Shi：Python 的练手项目有哪些值得推荐？（https://www.zhihu.com/question/29372574/answer/88744491）
+
+谢科：如何入门 Python 爬虫？（https://www.zhihu.com/question/20899988/answer/24923424）
+
+知乎用户：如何系统地自学 Python？（https://www.zhihu.com/question/29138020/answer/81972368）
+
+Wayne Shi：Python 的练手项目有哪些值得推荐？（https://www.zhihu.com/question/29372574/answer/88744491）
+
+25 岁才开始学习编程靠谱吗？40 岁都不晚！（https://zhuanlan.zhihu.com/p/20385885）
+
+一份Python爬虫电子书（https://zhuanlan.zhihu.com/p/28865834）
+
+
+
+2.可以学习python的网站
+
+小帅b：通往 Python 高手之路（https://link.zhihu.com/?target=https%3A//vip.fxxkpython.com/）
+
+Vamei老师：【python快速教程】https://link.zhihu.com/?target=https%3A//link.jianshu.com/%3Ft%3Dhttp%3A//www.cnblogs.com/vamei/archive/2012/09/13/2682778.html）
+廖雪峰老师：【python教程】（https://link.zhihu.com/?target=https%3A//link.jianshu.com/%3Ft%3Dhttp%3A//www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000）
+实验楼：【Python基础+项目实战课程】（https://link.zhihu.com/?target=https%3A//link.jianshu.com/%3Ft%3Dhttp%3A//www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000）
+《笨办法学 Python》（）
+Python Weekly（）
+Python challenge（）
+Python官方文档（）
+
+Code Like a Pythonista: Idiomatic Python：如何像 Python 高手(Pythonista)一样编程。（）
+
+pycrumbs：Python 资源大全。（）
+
+python-patterns：使用 python 实现设计模式。（）
+
+Scipy-lecture-notes：如何用 Python 来做学术（）
+
+SScientific-python-lectures：Python 科学计算的资料。（）
+
+Mario-Level-1：用 Python 和 Pygame 写的超级马里奥第一关。（）
+
+Python Koans：Python 的交互式学习工具。（）
+
+Minecraft：用 python 写的 Minecraft 游戏。（）
+
+Projects：Python 项目大集合。（）
+
+The Hitchhiker’s Guide to Python：旅行者的 Python 学习指南。（）
+
+学习python：知乎用户（）
+
+
+
+3.web项目练习
+
+Python 练习册，每天一个小程序：Yixiaohan/show-me-the-code（）
+
+web机器人：Python搭建的web接口聊天机器人-CSDN下载（）
+
+web实战：michaelliao/awesome-python-webapp（）
+
+在线问答系统：仿 StackOverflow 开发在线问答系统_Python_实验楼 - 实验楼（）
+
+博客BBS论坛系统：Python之路【第十八篇】Django小项目简单BBS论坛部分内容知识点 - Mr.心弦 - 博客园
+
+成绩管理系统：一个使用django开发的综合成绩管理系统 - 开源中国社区
+
+新闻系统：python项目练习四：新闻聚合 | the5fire的技术博客
+
+
+
+4.游戏项目练习
+
+2048小游戏：帐号登录
+
+街机小游戏：python项目练习十：DIY街机游戏 | the5fire的技术博客
+
+贪吃蛇小游戏：如何用Python写一个贪吃蛇AI
+
+扫雷小游戏：Python扫雷小游戏 - 开源中国社区
+
+数独游戏：帐号登录
+
+24点游戏：经典趣味24点游戏程序设计(python) - 转瞬之夏 - 博客园
+
+
+
+5.爬虫项目练习
+
+爬取知乎：Welcome to zhihu-py3’s documentation!
+
+爬取豆瓣：fanpei91/doubanspiders
+
+爬取京东：Adyzng/jd-autobuy
+
+爬取新浪微博：dataabc/weiboSpider
+
+爬取微信：CoolWell/wechat_spider
+
+爬取淘宝：http://python.jobbole.com/8135

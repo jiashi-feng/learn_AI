@@ -78,23 +78,6 @@ if st.button("推荐学习材料"):
     for material in materials:
         st.write(material)
 
-# 创建一个输入框，让用户输入问题
-user_input = st.text_input("请输入你的问题", "常见的十字花科植物有哪些？")
-
-# 创建一个按钮，用于触发模型调用
-if st.button("提交"):
-    # 保存用户输入到对话历史
-    st.session_state.messages.append({"role": "user", "content": user_input})
-    # 保存到历史学习记录
-    st.session_state.learning_history.append(user_input)
-    # 调用大模型并获取结果
-    result = call_model(user_input)
-    # 保存AI回复到对话历史
-    st.session_state.messages.append({"role": "assistant", "content": result})
-    # 显示结果
-    st.write("模型回复:")
-    st.write(result)
-
 # 创建侧边栏，并添加展开/收起功能
 with st.sidebar.expander("对话历史", expanded=True):
     # 显示对话历史
