@@ -3,6 +3,10 @@ import os
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+import logging
+
+# 配置日志记录
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class PythonTeachingRAG:
     def __init__(self):
@@ -41,7 +45,7 @@ class PythonTeachingRAG:
 
     def generate_answer(self, query: str, search: bool = True) -> str:
         """生成答案"""
-        print("\n处理问题：", query)
+        logging.info(f"处理问题：{query}")
         
         # 搜索相关文档
         relevant_docs = self.search_relevant_docs(query)
@@ -63,10 +67,11 @@ class PythonTeachingRAG:
     请提供详细的解释，如果可能的话，给出代码示例。如果参考资料中没有相关信息，请基于你的知识给出准确的回答。"""
         else:
             prompt = query
+        
         try:
-            print(f"final prompt: {prompt}")
+            logging.info(f"final prompt: {prompt}")
             # 初始化豆包API客户端
-            api_key="3b5b5a22-4c24-4bbe-b496-7d88cb6fe6cf"
+            api_key = "3b5b5a22-4c24-4bbe-b496-7d88cb6fe6cf"
             client = Ark(api_key=api_key)
             # 调用豆包API生成答案
             completion = client.chat.completions.create(
@@ -75,10 +80,10 @@ class PythonTeachingRAG:
                     {"role": "system", "content": "你是豆包，是由字节跳动开发的 AI 人工智能助手"},
                     {"role": "user", "content": prompt},
                 ],
-                
             )
             return completion.choices[0].message.content
         except Exception as e:
+            logging.error(f"生成答案时发生错误：{str(e)}")
             return f"生成答案时发生错误：{str(e)}"
 
 def demo(search):
@@ -124,4 +129,5 @@ def function_name(parameter1, parameter2):
         print(answer)
 
 if __name__ == "__main__":
-    demo(True)
+    search = True
+    demo(search)
