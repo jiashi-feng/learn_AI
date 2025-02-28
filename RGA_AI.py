@@ -71,11 +71,11 @@ class PythonTeachingRAG:
         try:
             logging.info(f"final prompt: {prompt}")
             # 初始化豆包API客户端
-            api_key = "3b5b5a22-4c24-4bbe-b496-7d88cb6fe6cf"
+            api_key = "your api key"
             client = Ark(api_key=api_key)
             # 调用豆包API生成答案
             completion = client.chat.completions.create(
-                model="ep-20250226095516-cxq6t",
+                model="your model key", 
                 messages=[
                     {"role": "system", "content": "你是豆包，是由字节跳动开发的 AI 人工智能助手"},
                     {"role": "user", "content": prompt},

@@ -14,7 +14,7 @@ import numpy as np
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # 设置 API Key
-api_key = "3b5b5a22-4c24-4bbe-b496-7d88cb6fe6cf"
+api_key = "your api_key"
 client = Ark(api_key=api_key)
 
 # 初始化对话历史
@@ -37,7 +37,7 @@ def call_model(prompt):
             {"role": "system", "content": "你是牛马AI，是由小冯开发的 AI 人工智能助手"}
         ] + st.session_state.messages + [{"role": "user", "content": prompt}]
         completion = client.chat.completions.create(
-            model="ep-20250228080657-8vwfr",
+            model="your model key",
             messages=messages,
         )
         return completion.choices[0].message.content
